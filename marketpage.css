@@ -1,0 +1,93 @@
+#myinfo {
+	float: left;
+    position: relative;
+    margin-top: 10px;
+    width: 20%;
+    height: 260px;
+    background: #eee;
+    border-radius: 4px;
+}
+#myinfo .menuname {
+    background-color: #FF5E00;
+    color: white;
+    text-align:center;
+    line-height:45px;
+    height: 45px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 10px;
+}
+#myinfo .yourpic {
+	display: block;
+	position: relative;
+	margin: auto;
+	margin-bottom: 10px;
+	background-color: white;
+	height: 130px;
+	width: 85%;
+	opacity: 0.5;
+}
+#myinfo .yourpic img {
+	position: relative;
+	display: block;
+	margin: auto;
+}
+#myinfo ul li {
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+	color: black;
+	font-weight: bold;
+	margin-left: -10px;
+}
+.shopmenu {
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    width: 19.1%;
+    height: 700px;
+    background: #eee;
+    border-radius: 4px;
+}
+.shopmenuright {
+	margin-right: 0;
+}
+.shopmenu .shopname {
+    background-color: #FF5E00;
+    color: white;
+    text-align:center;
+    line-height:45px;
+    height: 45px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 10px;
+}
+.shopmenu .html {
+	background-color: #FF7F27;
+}
+.shopmenu .css {
+	background-color: #35CDFF;
+}
+.shopmenu .js {
+	background-color: #FFC90E;
+}
+.shopmenu .php {
+	background-color: #7092BE;
+}
+.shopmenu ul li {
+	display: block;
+	margin-bottom: 10px;
+	margin-left: -20px;
+	font-size: 20px;
+}
+.shopcont{
+    height: 645px;
+    overflow: auto;
+}
+#ckbt{
+    float: right;
+}
