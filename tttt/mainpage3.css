@@ -1,0 +1,98 @@
+body{
+font-size:0.75em;
+font-family:굴림, gulim;
+}
+
+ul {
+    list-style:none;
+}
+
+li {
+    display:inline;
+}
+
+header {
+    min-width: 70vw;
+    height: 170px;
+}
+header h1 {
+    position: absolute;
+    left: 0.5vw;
+    top: 30px;
+}
+header h1 img {
+    width: 200px;
+}
+
+header div.top{
+    height: 110px;
+}
+
+header ul.rt{
+    padding-top:2vh;
+    padding-right:0.5vw;
+    float:right;
+}
+
+header div.top ul.rt .rtlink{
+    text-decoration:none;
+    font-weight:bold;
+    border-left: none;
+    padding: 0vh 0.5vw 0vh 0.5vw; 
+    color:black;
+}
+
+header div.top ul.rt .rtlink1{
+    text-decoration:none;
+    font-weight:bold;
+    border-left: 2px solid #000000;
+    padding: 0vh 0.5vw 0vh 0.5vw; 
+    color:black;
+}
+  @media screen and (max-width:767px) {
+    div.wrap {
+        width: 90vw;
+        margin: 0 auto;
+        position: relative;
+    }
+    #head1 {
+    margin-top: 1.5vh;
+    width: 90vw;
+    background: #eee;
+    border-radius: 4px;
+    }
+    #head2 {
+    margin-top: 1.5vh;
+    width: 90vw;
+    background: #eee;
+    border-radius: 4px;
+    }
+  }
+  @media screen and (min-width:768px) { 
+    div.wrap {
+        width: 78vw;
+        margin: 0 auto;
+        position: relative;
+    }
+    #head1 {
+    margin-top: 1.5vh;
+    width: 38.5vw;
+    background: #eee;
+    border-radius: 4px;
+    }
+    #head2 {
+    margin-left: 1vw;
+    margin-top: 1.5vh;
+    width: 38.5vw;
+    background: #eee;
+    border-radius: 4px;
+    }
+  }
+
+#topAutoScroll img {
+    max-width:50px; 
+    z-index:999; 
+    position:fixed; 
+    bottom:0px; 
+    right:0px;
+}
